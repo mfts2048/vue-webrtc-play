@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import axios from 'axios'
 
-const failUrl = ref('webrtc://101.34.3.87/live/1686990987248')
+const failUrl = ref('')
 const webrtcRef = ref<HTMLVideoElement | null>(null)
 const message = ref<string[]>([])
 

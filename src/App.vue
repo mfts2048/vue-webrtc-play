@@ -108,6 +108,7 @@ async function connect(streamurl: string) {
         bg="transparent"
         border="~ rounded gray-200 dark:gray-700"
         hover:bg-gray
+        hover:text-white
         @click="connect(failUrl)"
       >
         Connect
@@ -118,6 +119,7 @@ async function connect(streamurl: string) {
         bg="transparent"
         border="~ rounded gray-200 dark:gray-700"
         hover:bg-gray
+        hover:text-white
         @click="disconnect"
       >
         Disconnect
